@@ -1,0 +1,3 @@
+function buyKey(gameName) {
+  alert(`Вы выбрали купить ключ для: ${gameName}. Оплата пока не подключена.`);
+}
