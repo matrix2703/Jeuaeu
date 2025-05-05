@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Steam Ключи Магазин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Магазин Steam Ключей</h1>
+  </header>
+
+  <main>
+    <section class="product">
+      <h2>GTA V</h2>
+      <p>Ключ Steam — 399 ₽</p>
+      <button onclick="buyKey('GTA V')">Купить</button>
+    </section>
+
+    <section class="product">
+      <h2>Cyberpunk 2077</h2>
+      <p>Ключ Steam — 499 ₽</p>
+      <button onclick="buyKey('Cyberpunk 2077')">Купить</button>
+    </section>
+
+    <section class="product">
+      <h2>The Witcher 3</h2>
+      <p>Ключ Steam — 299 ₽</p>
+      <button onclick="buyKey('The Witcher 3')">Купить</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Steam Keys Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
